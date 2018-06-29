@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: wiggleKelp_luan
-  m_Shader: {fileID: 4800000, guid: 253244f51582f15479fd000dc4b1e631, type: 3}
+  m_Shader: {fileID: 4800000, guid: d39da576c0605d2449a3d9cde910ec77, type: 3}
   m_ShaderKeywords: _ENABLECUSTOMFOG_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
@@ -55,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c9f922089edf5e74f8f28c63405a8549, type: 3}
+        m_Texture: {fileID: 2800000, guid: 19dd8286310ed5e409db5753d472dafe, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MediumWavesTexture:
@@ -79,6 +79,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SmallWavesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -157,6 +161,7 @@ Material:
     - _WaveFade: 1.19
     - _Yaw: -10.1
     - _ZWrite: 1
+    - __dirty: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DeepWaterColor: {r: 0, g: 0.34117648, b: 0.62352943, a: 1}
