@@ -36,5 +36,6 @@ public class Movement : MonoBehaviour {
         }
         // apply fish movement
         rigid.velocity = transform.forward * velocity;
-        }
+     }
+
 }
