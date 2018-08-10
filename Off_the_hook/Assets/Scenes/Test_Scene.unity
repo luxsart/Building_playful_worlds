@@ -198,6 +198,14 @@ Prefab:
       propertyPath: m_Name
       value: Level_ground
       objectReference: {fileID: 0}
+    - target: {fileID: 4180649742944990, guid: fa720e22f4604ab41a10039506cacf7d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180649742944990, guid: fa720e22f4604ab41a10039506cacf7d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.127
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fa720e22f4604ab41a10039506cacf7d, type: 2}
   m_IsPrefabParent: 0
@@ -632,7 +640,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
