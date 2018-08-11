@@ -13,17 +13,18 @@ public class Track_points : MonoBehaviour
         rewardSound = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter()
     {
-
-    }
-
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Hitbox_points")
+        if (gameObject.tag == "Player1")
         {
             rewardSound.Play();
+            Score_ui_script.scoreValue += 10;
+        }
+
+        if(gameObject.tag == "Player2")
+        {
+            rewardSound.Play();
+            Score_ui_script_p2.scoreValue += 10;
         }
     }
 }

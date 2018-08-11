@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hitbox_points
-  - Player_1
   - Player2
+  - Player1
   layers:
   - Default
   - TransparentFX
