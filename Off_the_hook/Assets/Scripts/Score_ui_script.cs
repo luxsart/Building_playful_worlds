@@ -7,7 +7,7 @@ public class Score_ui_script : MonoBehaviour {
 
     public Text scoreText;
     public static int scoreValue = 0;
-    //Text score;
+    Text score;
 
     private void Start()
     {
