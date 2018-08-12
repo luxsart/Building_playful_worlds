@@ -15,5 +15,11 @@ public class Main_menu : MonoBehaviour {
         {
             SceneManager.LoadScene(1);
         }
+
+        if (Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
+            
     }
 }
